@@ -1,0 +1,9 @@
+/* Admin styles for Comparador CPT */
+.compare-search { margin-bottom: 10px; display:flex; gap:8px; align-items:center; }
+#compare-search-input { min-width: 320px; }
+#compare-search-results { margin-top:8px; }
+#compare-search-results .result { padding:6px 8px; border:1px solid #ddd; border-radius:4px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center; }
+#compare-selected { margin:10px 0; padding:0; list-style:none; }
+#compare-selected li { padding:8px 10px; border:1px solid #ddd; border-radius:4px; margin-bottom:6px; background:#fff; display:flex; justify-content:space-between; align-items:center; cursor:move; }
+#compare-selected .title { font-weight:600; }
+#compare-selected .compare-remove { color:#a00; }
